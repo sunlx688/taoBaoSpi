@@ -8,7 +8,7 @@ url = 'https://mm.taobao.com/self/aiShow.htm?spm=719.7763510.1998643336.1.9zAfIW
 login_url = 'https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F'
 
 session = requests.session()
-session.post(login_url, {'username': '星火312', 'password': '5A4m8Y3c'})
+session.post(login_url, {'username': '###', 'password': '###'})
 s = session.get(url)
 html = BeautifulSoup(s.text)
 
